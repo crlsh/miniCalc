@@ -1,0 +1,66 @@
+
+.container {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+ }
+ 
+ 
+ .display {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 16px;
+    font-size: 40px;
+ }
+ 
+ 
+ 
+ 
+ .botoneraNum {
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    grid-template-areas: 
+    ". . . ."
+    ". . . ."
+    ". . . ."
+    ". center . .";
+ }
+ 
+ 
+ .botoneraOp {
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    grid-template-areas: 
+    ". . . .";
+ }
+ 
+ .botoneraCtrl {
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    grid-template-areas: 
+    ". . ";
+  
+ }
+ 
+ .boton {
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+ }
+ 
+ .igual {
+    background-color: rgb(85, 85, 255);
+    color: white;
+ }
+ 
+ .boton:hover {
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+ }
